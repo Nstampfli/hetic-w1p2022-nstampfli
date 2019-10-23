@@ -1,0 +1,88 @@
+#back1 {
+  background: url("../img/fondow.jpg") no-repeat;
+  background-size: cover;
+}
+
+#back2 {
+  background: url("../img/fondoww.jpg") no-repeat;
+  background-size: cover;
+}
+
+#back3 {
+  background: url("../img/fondowww.jpg") no-repeat;
+  background-size: cover;
+}
+
+header nav {
+  margin-left: 18%;
+  color: white;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 300px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.8);
+  line-height: 50px;
+  text-align: center;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+header nav ul li a:hover {
+  background-color: red;
+}
+
+header nav ul li ul li {
+  display: none;
+}
+
+header nav ul li:hover ul li {
+  display: block;
+}
+
+.sizelogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 18%;
+}
+
+.video1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  width: 40%;
+}
+
+a {
+  text-decoration: none;
+}
+.button1 {
+  border-radius: 40px;
+  border: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  font-size: 25px;
+  padding: 20px;
+  color: white;
+  background-color: #ff8300;
+}
+
+.button1:hover {
+  font-size: 27px;
+}
