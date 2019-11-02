@@ -1,70 +1,52 @@
 #back2 {
-  background: url("../img/fondoww.jpg") no-repeat;
-  background-size: cover;
+  background: url("../img/bgheroes.jpg") no-repeat top,
+    url("../img/bgheroes.jpg") no-repeat bottom;
+  background-color: #f6e9f0;
 }
 
 #back3 {
   background: url("../img/fondowww.jpg") no-repeat;
   background-size: cover;
 }
-
-header nav {
-  margin-left: 16%;
-  color: white;
+nav {
+  width: 100%;
+  background-color: #424558;
 }
-
-header nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+nav ul {
+  overflow: hidden;
 }
-
-header nav ul li {
-  margin: 0;
-  padding: 0;
+nav li {
+  list-style-type: none;
   float: left;
-  width: 200px;
-  height: 50px;
-  background-color: rgba(0, 0, 0, 0.8);
-  line-height: 50px;
-  text-align: center;
 }
-
-header nav ul li a {
+nav a {
+  font-size: 35px;
+  display: inline-block;
   text-decoration: none;
-  color: white;
-  display: block;
-}
-header nav ul li a:hover {
-  background-color: #900000;
+  padding: 40px 60px;
+  color: azure;
 }
 
-#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  z-index: -1;
-  background-size: cover;
+.menu-accueil:hover {
+  border-top: 8px solid #e44d26;
+  background-color: rgba(228, 77, 38, 0.15);
 }
-
-a {
-  text-decoration: none;
+.menu-heros:hover {
+  border-top: 8px solid #0070bb;
+  background-color: rgba(000, 112, 192, 0.15);
 }
-.button1 {
-  border-radius: 40px;
-  border: none;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 1%;
-  font-size: 25px;
-  padding: 20px;
-  color: white;
-  background-color: #ff8300;
+.menu-cartes:hover {
+  border-top: 8px solid #f1dc4f;
+  background-color: rgba(241, 211, 79, 0.15);
 }
-
-.button1:hover {
-  background-color: #cc6a01;
+.menu-event:hover {
+  border-top: 8px solid #bbb;
+  background-color: rgba(220, 220, 220, 0.15);
+}
+nav li:hover a {
+  padding: 32px 60px 40px 60px;
+}
+.table {
+  display: table;
+  margin: 0 auto;
 }
