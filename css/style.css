@@ -23,30 +23,43 @@ nav a {
   font-size: 35px;
   display: inline-block;
   text-decoration: none;
-  padding: 40px 60px;
+  padding: 35px 55px;
   color: azure;
 }
 
 .menu-accueil:hover {
-  border-top: 8px solid #e44d26;
+  border-top: 6px solid #e44d26;
   background-color: rgba(228, 77, 38, 0.15);
 }
 .menu-heros:hover {
-  border-top: 8px solid #0070bb;
+  border-top: 6px solid #0070bb;
   background-color: rgba(000, 112, 192, 0.15);
 }
 .menu-cartes:hover {
-  border-top: 8px solid #f1dc4f;
+  border-top: 6px solid #f1dc4f;
   background-color: rgba(241, 211, 79, 0.15);
 }
 .menu-event:hover {
-  border-top: 8px solid #bbb;
+  border-top: 6px solid #bbb;
   background-color: rgba(220, 220, 220, 0.15);
 }
 nav li:hover a {
-  padding: 32px 60px 40px 60px;
+  padding: 28px 55px 35px 55px;
 }
 .table {
   display: table;
   margin: 0 auto;
+}
+.videoacc {
+  z-index: -1;
+  width: 100%;
+  position: fixed;
+}
+
+.logopng {
+  z-index: 1;
+  width: 45%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
