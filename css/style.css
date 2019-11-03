@@ -28,20 +28,28 @@ nav a {
 }
 
 .menu-accueil:hover {
-  border-top: 6px solid #e44d26;
+  border-top: 7px solid #e44d26;
   background-color: rgba(228, 77, 38, 0.15);
 }
 .menu-heros:hover {
-  border-top: 6px solid #0070bb;
+  border-top: 7px solid #0070bb;
   background-color: rgba(000, 112, 192, 0.15);
 }
 .menu-cartes:hover {
-  border-top: 6px solid #f1dc4f;
+  border-top: 7px solid #f1dc4f;
   background-color: rgba(241, 211, 79, 0.15);
 }
 .menu-event:hover {
-  border-top: 6px solid #bbb;
+  border-top: 7px solid #bbb;
   background-color: rgba(220, 220, 220, 0.15);
+}
+.menu-buy {
+  color: white;
+  background-color: #ff8300;
+}
+.menu-buy:hover {
+  border-top: 7px solid #cc6a01;
+  background-color: #cc6a01;
 }
 nav li:hover a {
   padding: 28px 55px 35px 55px;
