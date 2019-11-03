@@ -46,6 +46,8 @@ nav a {
 .menu-buy {
   color: white;
   background-color: #ff8300;
+  margin-left: 712px;
+  padding: -15px -55px -22px -55px;
 }
 .menu-buy:hover {
   border-top: 7px solid #cc6a01;
@@ -57,6 +59,10 @@ nav li:hover a {
 .table {
   display: table;
   margin: 0 auto;
+}
+.logosize {
+  width: 104px;
+  margin-right: 630px;
 }
 .videoacc {
   z-index: -1;
