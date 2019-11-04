@@ -11,6 +11,8 @@
 nav {
   width: 100%;
   background-color: #424558;
+  grid-row: 1;
+  grid-column: 2;
 }
 nav ul {
   overflow: hidden;
@@ -21,10 +23,31 @@ nav li {
 }
 nav a {
   font-size: 35px;
-  display: inline-block;
+  display: flex;
   text-decoration: none;
   padding: 35px 55px;
   color: azure;
+}
+.grid1 {
+  display: grid;
+  grid-template-rows: 105px 1fr;
+  grid-template-columns: 250px 4fr 250px;
+}
+.buttonbuy {
+  grid-row: 1;
+  grid-column: 3;
+  background-color: #ff8300;
+}
+.buttonbuy a {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  text-decoration: none;
+  color: white;
+}
+.buttonbuy:hover {
+  background-color: #cc6a01;
 }
 
 .menu-accueil:hover {
@@ -43,16 +66,7 @@ nav a {
   border-top: 7px solid #bbb;
   background-color: rgba(220, 220, 220, 0.15);
 }
-.menu-buy {
-  color: white;
-  background-color: #ff8300;
-  margin-left: 712px;
-  padding: -15px -55px -22px -55px;
-}
-.menu-buy:hover {
-  border-top: 7px solid #cc6a01;
-  background-color: #cc6a01;
-}
+
 nav li:hover a {
   padding: 28px 55px 35px 55px;
 }
@@ -61,8 +75,10 @@ nav li:hover a {
   margin: 0 auto;
 }
 .logosize {
-  width: 104px;
-  margin-right: 630px;
+  background-color: #424558;
+  width: 106px;
+  grid-row: 1;
+  grid-column: 1;
 }
 .videoacc {
   z-index: -1;
