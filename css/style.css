@@ -1,3 +1,7 @@
+html {
+  src: url("big_noodle_titling.ttf") format("truetype");
+  font-family: "BigNoodleTitling";
+}
 #back2 {
   background: url("../img/bgheroes.jpg") no-repeat top,
     url("../img/bgheroes.jpg") no-repeat bottom;
